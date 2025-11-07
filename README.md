@@ -14,12 +14,16 @@ yarn dev
 
 - Fork this repo under your own Github account and make it public.
 - Build the UI according to this design [Web Assessment UI](https://www.figma.com/file/LrtIkV5utc38kPQ6HrfmL9/Web-Assesment-UI).
-- Integrate and populate the response from [Movie API Postman Collection]( https://documenter.getpostman.com/view/17611285/UVRDFQxK). 
-- You may use any npm packages that seems to fit the test requirement. 
+- Integrate and populate the response from [Movie API Postman Collection](https://documenter.getpostman.com/view/17611285/UVRDFQxK).
+- You may use any npm packages that seems to fit the test requirement.
 - Implements either React Context / React Redux for the state management.
 
 ### Definition of Done
 
-- All screens in the design done. 
-- Integrated with API. 
-- Have atleast two usage of either React Context / React Redux 
+- All screens in the design done.
+- Integrated with API.
+- Have atleast two usage of either React Context / React Redux
+
+### Requirement
+
+- Node v22.2.0
