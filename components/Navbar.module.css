@@ -1,0 +1,119 @@
+.navbar {
+  background-color: #333;
+  padding: 10px;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 0;
+  padding: 10px 10px 10px 45px;
+}
+
+.navLists {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.navLink {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 20px;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent; /* Invisible underline by default */
+  transition: border-color 0.2s ease;
+}
+
+.navLink:hover {
+  border-color: #fed530; /* Underline on hover */
+}
+
+.navLink.active {
+  border-color: #fed530;
+  font-weight: 600;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 40px;
+
+  .profileImage {
+    border-radius: 50%;
+  }
+
+  .username {
+    color: #ffffff;
+    font-size: 16px;
+    padding-left: 10px;
+  }
+}
+
+.searchContainer {
+  position: relative;
+}
+
+.searchButton {
+  background: none;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.searchButton:hover {
+  background: none;
+}
+
+.popup {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.optionGroup {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.select,
+.dateInput {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #fed530;
+}
+
+.submitButton {
+  background-color: #fed530;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.submitButton:hover {
+  background-color: #fed530;
+}
