@@ -2,7 +2,7 @@ import React, { createContext, useState } from "react";
 import { DM_Sans } from "next/font/google"; // Import the font from Next.js optimization
 import "../styles/globals.css"; // Global styles
 import Layout from "../components/Layout";
-import { SelectedByProvider } from "../contexts/SelectedByContext";
+// import { SelectedByProvider } from "../contexts/SelectedByContext";
 
 // Create context for user state management
 const MyContext = createContext();

@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "./Navbar"; // Import Navbar
 import styles from "./Layout.module.css"; // Layout styling
-import HomePage from "./HomePage";
+// import HomePage from "./HomePage";
 
 const Layout = ({ children }) => {
-  const [selectedBy, setSelectedBy] = useState("");
+  // const [selectedBy, setSelectedBy] = useState("");
   return (
     <div className={styles.layout}>
-      <Navbar selectedBy={selectedBy} setSelectedBy={setSelectedBy} />
+      {/* selectedBy={selectedBy} setSelectedBy={setSelectedBy} */}
+      <Navbar />
 
       <main className={styles.mainContent}>
-        <HomePage selectedBy={selectedBy} />
+        {/* <HomePage selectedBy={selectedBy} /> */}
         {children}
       </main>
 
